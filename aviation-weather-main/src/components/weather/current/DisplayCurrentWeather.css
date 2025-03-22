@@ -1,0 +1,33 @@
+.air-weather {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.air-weather-info {
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.air-weather-info p {
+  margin: 2px;
+}
+
+.air-location-info {
+  display: flex;
+}
+
+.leaflet-control {
+  z-index: 0 !important
+}
+
+.leaflet-pane {
+  z-index: 0 !important
+}
+
+.leaflet-top,
+.leaflet-bottom {
+  z-index: 0 !important
+}
